@@ -1,0 +1,28 @@
+/* padding*/
+.pd{
+    padding: 120px 0px;
+}
+
+.border-red{
+    border: 1px solid red;
+}
+
+.border-green{
+    border: 1px solid green;
+}
+
+.border-blue{
+    border: 1px solid blue;
+}
+
+.jcb{
+    justify-content: space-between;
+}
+
+.jcc{
+    justify-content: center;
+}
+
+.lst{
+    list-style-type: none;
+}
