@@ -49,7 +49,7 @@ a{
 .control{
     display: none;
     cursor: pointer;
-    padding-top: 14px;
+    margin: 14px;
 }
 
 .bars{

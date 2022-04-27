@@ -24,7 +24,7 @@
 .navbar ul{
     display:none;
     flex-direction: column;
-    text-align: left;
+    text-align: center;
     position: relative;
     top: 20px;
     left: 40px;
