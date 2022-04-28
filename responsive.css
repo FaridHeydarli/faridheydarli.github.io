@@ -77,10 +77,6 @@
     margin: 10px 0px;
 }
 
-.service-content-item i{
-    font-size: 40px;
-    color: #fdd912;
-}
 
 .service-content-item p{
     font-size: 13px;
@@ -138,4 +134,143 @@
     padding-bottom: 10px;
 }
 /* contact section end*/
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .pd{
+        padding: 120px 50px;
+    }
+
+    .flex{
+        display: flex;
+    }
+
+    .grid{
+        grid-template-columns: 0.5fr 1fr;
+        gap: 40px;
+    }
+
+    /*navbar section start*/
+
+.navbar-container{
+    padding: 0px 40px;
+}
+
+.navbar-container-nav{
+    display: block;
+}
+
+.navbar ul{
+    display:none;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+#control:checked~ul{
+    display: block;
+}
+
+.control{
+    display: block;
+}
+
+/* navbar section end*/
+
+/* social section start*/
+
+.social-text p{
+    font-size: 50px;
+}
+
+.about-profil-info h1{
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 0px;
+
+}
+
+.about-profil-info p{
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.about-profil img{
+    width: 100%;
+}
+
+/* social section end*/
+
+/* service section start */
+.service-content-column1{
+    flex-direction: row;
+}
+
+.service-content-column2{
+    flex-direction: row;
+}
+
+.service-content-item{
+    width: calc(100%);
+}
+
+
+.service-content-item p{
+    font-size: 13px;
+}
+
+.service-content-item h5{
+    margin: 10px 0px 10px 0px;
+}
+/* service section end */
+
+/* works section start */
+
+.works-content-column1{
+    flex-direction: row;
+}
+
+.works-content-column2{
+    flex-direction: row;
+}
+
+.works-content-item{
+    width: calc(100%);
+}
+
+/* works section end */
+
+/* blog section start */
+
+.blog-content-column{
+    flex-direction: row;
+}
+
+.blog-content-item{
+    width: calc(100%/3);
+}
+
+/* blog section end */
+
+/* contact section start*/
+
+.form-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* contact section end*/
+
+.socials a i{
+    padding-top: 20px;
+}
+
+.footer p{
+    padding-bottom: 10px;
+}
+/* contact section end*/
+    
 }
