@@ -22,8 +22,15 @@
     font-size: 13px;
     line-height: 50px;
     border-bottom: 1px solid rgb(0, 0, 0);
+    display: block;
+    width: 100%;
+    padding: 0px;
 }
 
+
+.navbar ul li a:hover{
+    box-shadow: none;
+}
 
 ul{
     position: fixed;
@@ -31,20 +38,20 @@ ul{
     left: 100%;
     right: 0;
     top: 70px;
-    bottom: 50%;
     overflow: hidden;
     flex-direction: column;
     background-color: #ffffff;
+    padding: 0px;
     transition: all 0.5s ease;
 }
 
 
 #control:checked~ul{
-    left: 0;
+    left: 0%;
 }
 
 #control:checked~.control i::before{
-    content: "\x";
+    content: "\X";
 }
 
 .control{
@@ -174,8 +181,15 @@ ul{
     font-size: 13px;
     line-height: 50px;
     border-bottom: 1px solid rgb(0, 0, 0);
+    display: block;
+    width: 100%;
+    padding: 0px;
 }
 
+
+.navbar ul li a:hover{
+    box-shadow: none;
+}
 
 ul{
     position: fixed;
@@ -183,20 +197,20 @@ ul{
     left: 100%;
     right: 0;
     top: 70px;
-    bottom: 50%;
     overflow: hidden;
     flex-direction: column;
     background-color: #ffffff;
+    padding: 0px;
     transition: all 0.5s ease;
 }
 
 
 #control:checked~ul{
-    left: 0;
+    left: 0%;
 }
 
 #control:checked~.control i::before{
-    content: "\x";
+    content: "\X";
 }
 
 .control{
